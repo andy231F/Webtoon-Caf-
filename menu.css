@@ -1,0 +1,54 @@
+@font-face {
+  font-family: MyNira-Reg;
+  src: url(font/Niramit-Regular.ttf);
+}
+
+body {
+  background-image: url("images/background_menu.png");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  background-color: #fdfffd;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffd3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: MyNira-Reg;
+  font-size: 20px;
+  display: block;
+  color: #49badf;
+  padding: 20px 24px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #6c5d9a;
+}
+
+.atright {
+  float: right;
+}
+
+.boite {
+  display: flex;
+  padding: 30px;
+}
+
+.inboite {
+  flex: 50%;
+  text-align: center;
+}

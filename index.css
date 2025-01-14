@@ -1,0 +1,252 @@
+@font-face {
+  font-family: MyNira-Reg;
+  src: url(font/Niramit-Regular.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fdfffd;
+}
+
+/*début navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffd3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: MyNira-Reg;
+  font-size: 20px;
+  display: block;
+  color: #49badf;
+  padding: 20px 24px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #6c5d9a;
+}
+
+a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  color: grey;
+  text-decoration: none;
+}
+
+.atright {
+  float: right;
+}
+/*fin navbar*/
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+  min-height: 90%;
+  z-index: -1;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.space {
+  padding: 20px 100px;
+  color: #fdfffd;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: MyNira-Reg;
+  padding-bottom: 10%;
+}
+
+.section-titles {
+  font-family: "League Spartan", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(108, 92, 153);
+}
+
+h1 {
+  color: #ffffd3;
+  padding: 20px 100px 0px 100px;
+  font-weight: 100;
+  font-size: 100px;
+  margin-bottom: 0%;
+}
+
+span {
+  color: #49badf;
+}
+
+.purple {
+  color: #6c5d9a;
+}
+
+/*boutton*/
+.button-box {
+  background-color: #fdfffd;
+  color: #49badf;
+  border-color: #49badf;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: block;
+  font-family: MyNira-Reg;
+  border: 2px solid #6c5c99;
+}
+
+.button-box:hover {
+  background-color: #fdfffd;
+  color: #6c5c99;
+  border-color: #6c5c99;
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  display: block;
+  font-family: MyNira-Reg;
+}
+
+.button-box2 {
+  background-color: none;
+  color: #49badf;
+  border-color: #49badf;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: block;
+  font-family: MyNira-Reg;
+}
+
+.button-box2:hover {
+  background-color: #fdfffd;
+  color: #6c5c99;
+  border-color: #6c5c99;
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  display: block;
+  font-family: MyNira-Reg;
+}
+
+.spe_size {
+  font-family: MyNira-Reg;
+  font-size: 20px;
+  line-height: 1.8;
+  margin-block-start: 0;
+  color: #49badf;
+}
+
+.titles2 {
+  font-family: MyNira-Reg;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.titles3 {
+  font-family: MyNira-Reg;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6c5d9a;
+}
+
+.menu-title {
+  padding: 6%;
+}
+
+.boite {
+  display: flex;
+  padding: 30px;
+}
+
+.inboite {
+  flex: 33.33%;
+  text-align: center;
+}
+
+.boite_2 {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+  background: #ffffd3;
+  border-radius: 10px;
+}
+
+.inboite_2 {
+  display: flex;
+  border-radius: 15px;
+  padding: 20px 30px 20px;
+}
+
+.textchange {
+  display: inline-block;
+  width: 50%;
+  padding: 0 30px;
+  vertical-align: middle;
+}
+
+.img_boite {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  margin: auto;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.space_btw {
+  margin: 6%;
+}
+
+.spe_h2 {
+  color: #6c5d9a;
+  font-family: "League Spartan", sans-serif;
+  font-size: 40px;
+}
+
+/*boite pour aligner wbs et resize mes images*/
+
+.img {
+  width: 70%;
+}
+
+.container {
+  height: 110px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.speime {
+  float: right;
+}
+.pad {
+  padding-top: 25%;
+}
+
+.para {
+  font-size: 24px;
+  line-height: 1.8;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+}
+p {
+  color: #424242;
+}
+
+.centered {
+  padding-left: 70px;
+}

@@ -1,0 +1,141 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fdfffd;
+}
+
+@font-face {
+  font-family: MyNira-Reg;
+  src: url(font/Niramit-Regular.ttf);
+}
+
+/*début navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffd3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: MyNira-Reg;
+  font-size: 20px;
+  display: block;
+  color: #49badf;
+  padding: 20px 24px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #6c5d9a;
+}
+
+a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  color: grey;
+  text-decoration: none;
+}
+
+.atright {
+  float: right;
+}
+
+/*boutton*/
+.button-box {
+  background-color: #fdfffd;
+  color: #49badf;
+  border-color: #49badf;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: block;
+  font-family: MyNira-Reg;
+  border: 2px solid #6c5c99;
+}
+
+.button-box:hover {
+  background-color: #fdfffd;
+  color: #6c5c99;
+  border-color: #6c5c99;
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  display: block;
+  font-family: MyNira-Reg;
+}
+
+.section-titles {
+  font-family: "League Spartan", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #6c5c99;
+}
+
+.menu-title {
+  padding: 4%;
+  padding-bottom: 1%;
+}
+
+/*boite pour aligner wbs et resize mes images*/
+.img {
+  width: 70%;
+}
+
+.boite_2 {
+  display: flex;
+  padding: 30px;
+}
+
+.inboite_2 {
+  flex: 33.33%;
+  text-align: center;
+}
+
+.container {
+  height: 45px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.titre_wb {
+  color: #000000;
+  font-size: 24px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.genre {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 26px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.drama {
+  color: #00b19a;
+}
+
+.comedie {
+  color: #eea800;
+}
+
+.fantastique {
+  color: #8b00e9;
+}
+
+.romance {
+  color: #fd337f;
+}
